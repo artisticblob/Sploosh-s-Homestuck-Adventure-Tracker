@@ -1,1 +1,9 @@
 /* This file is empty! Make a vaguely stylistically appealing site config, like. find fonts and stuff as well as changing color. */
+
+body{
+    background-color: rgb(152, 222, 255);
+}
+
+#mainBody{
+    background-color: rgb(110, 214, 90);
+}
