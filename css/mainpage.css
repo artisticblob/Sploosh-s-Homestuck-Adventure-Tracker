@@ -1,15 +1,13 @@
 body {
-    background-color: rgb(150, 255, 255);
+    background-color: rgb(46, 175, 207);
+    margin-inline: 500px;
 }
 
-#pageHeader {
-    background-color: rgb(132, 222, 116);
-}
-
-#div1, #div2 {
-    background-color: rgb(132, 222, 116);
-}
-
-#pageFooter {
-    background-color: rgb(132, 222, 116);
+#pageHeader, #div1, #div2, #pageFooter {
+    background-color: rgb(122, 229, 130);
+    border: 3px solid white;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
 }
