@@ -1,6 +1,7 @@
 body {
     background-color: rgb(46, 175, 207);
     width: 800px;
+    margin: auto;
 }
 
 #pageHeader, #div1, #div2, #div3, #pageFooter {
