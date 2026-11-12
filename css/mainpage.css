@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(46, 175, 207);
+    width: 800px;
+}
+
+#pageHeader, #div1, #div2, #div3, #pageFooter {
+    background-color: rgb(122, 229, 130);
+    border: 3px solid white;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
