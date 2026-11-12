@@ -1,10 +1,21 @@
+/* 
+Below just sets the main color of the website background; planning on replacing this with an image that tiles so that there can be clouds.
+*/
 body {
     background-color: rgb(46, 175, 207);
-    width: 800px;
-    margin: auto;
 }
 
-#pageHeader, #div1, #div2, #div3, #pageFooter {
+/*
+Below automatically sets any divider with an id containing "page" or "div" to this specific style.
+The only divs that should have this style are:
+> any main body divs (use "div[#]", replace "[#]" with the number)
+    > all main body divs should be under div "mainBody", should only be one of these with every "div[#]" inside of it
+> header (use pageHeader, shouldn't be more than one)
+> footer (use pageFooter, shouldn't be more than one)
+*/
+div[id*="div"], [id*="page"] {    
+    width: 60%;
+    margin: auto;
     background-color: rgb(122, 229, 130);
     border: 3px solid white;
     border-radius: 20px;
